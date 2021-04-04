@@ -1,0 +1,95 @@
+
+h1{
+font-family: fairplay display;
+font-weight: 500;
+font-style: normal;
+background-color: cadetblue;
+text-align: center;
+}
+
+
+
+h2{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 400;
+text-align: center;
+}
+
+
+img{
+width: 150px;
+align-items: flex-end;
+margin: auto;
+display: block;
+}
+
+blockquote{
+text-align: center;    
+}
+
+pre{
+text-align: right;
+width: 100%;
+margin-top: 0%;
+}
+
+.contact-us{
+float: right; 
+margin-bottom: 0px;   
+}
+
+
+/* #foodicon-target{
+    float: right;
+    width: 50px;
+    margin-right: 100px;
+}
+
+#peopleeating-img{
+    float: right;
+    width: 50px;
+    margin-right: 100px;
+}
+
+
+#lightbulb-img{
+float: right;
+} */
+
+ul{
+    background-color: rgb(223, 240, 237);
+}
+
+ol{
+    list-style: disc;
+    background-color: rgb(223, 240, 237);
+}
+
+
+.We-love-food{
+text-align: center;
+}
+
+.img-container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    float: inline-end;
+}
+
+.images{
+    width: 30px;
+    height: 30px;
+}
+
+.root-container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cafe-img{
+    border: 2px solid black;
+    align-self: center;
+}
