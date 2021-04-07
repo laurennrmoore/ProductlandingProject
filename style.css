@@ -13,6 +13,7 @@ h2{
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: 400;
 text-align: center;
+background-color: cyan;
 }
 
 
@@ -24,7 +25,8 @@ display: block;
 }
 
 blockquote{
-text-align: center;    
+text-align: center; 
+background-color: aqua;   
 }
 
 pre{
@@ -38,74 +40,20 @@ float: right;
 margin-bottom: 0px;  
 }
 
-
-/* Moving both "contact-us and address/phone # center at min-width 300px; */
-/*  
-
-
-declare commands for both h3 and .contact-us
- .h3 .contact-us{
-min-width: 100px;
-text-align: center;.
-
- }
-
-
-.contact-us @media screen{
-    min-width: 100%;
-    text-align: center;
-    }
-
-
-
-.h3 @media screen{
-min-width: 200px;
-text-align: center;
-}  
-
-*/
-
-#footer @media screen (max-width: 300px) {
-
+.div-2{
+background-color: cyan;
 }
-
-
-
-@media only-screen and (max-width: 794px)and(max-width: 300px)
-
-
-
-
-
-/*  */
-
-/* #foodicon-target{ 
-    float: right;
-    width: 50px;
-    margin-right: 100px;
-}
-
-#peopleeating-img{
-    float: right;
-    width: 50px;
-    margin-right: 100px;
-}
-
-
-#lightbulb-img{
-float: right;
-} */
-
-
 
 
 ul{
     background-color: rgb(223, 240, 237);
 }
 
+
 ol{
     list-style: disc;
     background-color: rgb(223, 240, 237);
+    
 }
 
 
@@ -113,12 +61,16 @@ ol{
 text-align: center;
 }
 
+
+
 .img-container{
     border: 2px solid black;
     display: flex;
     flex-direction: column;
     
 }
+
+
 
 .images{
     width: 30px;
@@ -130,28 +82,18 @@ text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: aqua;
 }
+
 
 .cafe-img{
     border: 2px solid black;
     align-self: center;
 }
 
+
 #id first-paragraph{
     background-color: deepskyblue;
+    
 }
-
-
-
-/* Web Responsiveness Elements*/
-
-
-/* @media (max-width 
-<a href=""></a>
-
-
-
-
-
-
 
